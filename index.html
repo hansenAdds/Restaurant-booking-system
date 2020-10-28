@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>AARB</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="stylesheets/style.css">
+		<link rel="stylesheet" href="stylesheets/jquery-ui.css">
+		<link rel="stylesheet" href="stylesheets/jquery-ui-2.css">
+		<script src="javascripts/jquery.js"></script>
+		<script src="javascripts/jquery-ui.js"></script>
+		<script src="javascripts/jquery-ui-2.js"></script>
+		<script src="javascripts/vue.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="head">
+				<h1 class="logo"><a href="index.html" class="text-black h2 mb-0">AARB</a></h1>
+				<input id="register" type="button" value="Register" onclick="regesPopUp()" />
+				<input id="login" type="button" value="Login" onclick="loginPopUp()" />
+				<input id="login" name="book history" type="button" value="Book history" onclick="historyPopUp()">
+			</div>
+		</header>
+
+			<div class="first" style="background-image: url(images/img.jpg);">
+				<div class="container">
+					<div class="container2">
+						<div>
+							<h1 class="search-bar-text">Awesome Asian Restaurants</h1>
+						</div>
+						<div>
+							<p class="search-bar-text">Book Adelaide's Awesome Restaurants!</p>
+						</div>
+						<form action="search.html" method="get">
+							<div class="search">
+								<div class="form1">
+									<input class="forms" type="text" id="datepicker" size="10" placeholder="Select date"/>
+								</div>
+								<div class="form2">
+									<input class="forms" id="timepicker" type="text" size="10" placeholder="Select time"/>
+								</div>
+								<div class="form2">
+									<select class="forms">
+										<option value="0">Number of Guests</option>
+										<option value="1">1 Guests</option>
+										<option value="2">2 Guests</option>
+										<option value="3">3 Guests</option>
+										<option value="4">4 Guests</option>
+										<option value="5">5 Guests</option>
+										<option value="6">6 Guests</option>
+										<option value="7">7 Guests</option>
+										<option value="8">8 Guests</option>
+										<option value="9">9 Guests</option>
+										<option value="10">10 Guests</option>
+										<option value="11">11 Guests</option>
+										<option value="12">12 Guests</option>
+										<option value="13">13 Guests</option>
+										<option value="14">14 Guests</option>
+										<option value="15">15 Guests</option>
+									</select>
+								</div>
+								<div class="form3">
+									<select class="forms">
+										<option value="0">Cuisine</option>
+										<option value="Chinese">Chinese</option>
+										<option value="Korean">Korean</option>
+										<option value="Japanese">Japanese</option>
+										<option value="Thai">Thai</option>
+										<option value="Malaysian">Malaysian</option>
+										<option value="Singaporean">Singaporean</option>
+										<option value="Vietnamese">Vietnamese</option>
+										<option value="Indonesian">Indonesian</option>
+										<option value="Malaysian">Malaysian</option>
+										<option value="Pakistan">Pakistan</option>
+										<option value="Indian">Indian</option>
+									</select>
+								</div>
+
+								<div class="form4">
+									<input class="forms search_button" type="submit" value="Search">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>  
+			<div class="second">
+				<div class="recommendation">
+					<h2>RECOMMENDED RESTAURANTS</h2>
+					<div class="line1">
+						<div class="restaurant">
+							<div class="image">
+								<img alt="" src="images/Recommended1.png" width="200" height="200">
+							</div>
+							<div class="content" >
+								<a href="Gin Long Canteen.html">
+								<p style="font-size: 120%;color: Tomato"><b> Gin Long Canteen</b></p>
+								<p style="font-size: 120%;color: Tomato"><b> 4.4</b></p>
+								<p style="font-size: 120%;color: Tomato"><b> 42 O'Connell St, North Adelaide, SA 5006</b></p>
+							</a>
+							</div>
+						</div>
+						<div class="restaurant">
+							<div class="image">
+								<img alt="" src="images/Recommended2.png" width="200" height="200">
+							</div>
+							<div class="content">
+								<a href="Pondok Daun.html">
+								<p style="font-size: 120%;color: Tomato"><b>Pondok Daun</b></p>
+								<p style="font-size: 120%;color: Tomato"><b> 4.6</b></p>
+								<p style="font-size: 120%;color: Tomato"><b> 94 Currie St, Adelaide SA 5000</b></p>
+							</div>
+						</div>
+						<div class="restaurant">
+							<div class="image">
+								<img alt="" src="images/Recommended3.png" width="200" height="200">
+							</div>
+							<div class="content">
+								<a href="Jasmin Indian.html">
+								<p style="font-size: 120%;color: Tomato"><b> Jasmin Indian</b></p>
+								<p style="font-size: 120%;color: Tomato"><b> 4.3</b></p>
+								<p style="font-size: 120%;color: Tomato"><b> 31 Hindmarsh Square, Adelaide SA 5000</b></p>
+							</div>
+						</div>
+						<div class="restaurant">
+							<div class="image">
+								<img alt="" src="images/Recommended4.png" width="200" height="200">
+							</div>
+							<div class="content">
+								<a href="Lockleys Spice.html">
+								<p style="font-size: 120%;color: Tomato"><b> Lockleys Spice</b></p>
+								<p style="font-size: 120%;color: Tomato"><b> 4.2</b></p>
+								<p style="font-size: 120%;color: Tomato"><b> 438 Henley Beach Rd, Lockleys SA 5032</b></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<footer>
+			<div class="foot">
+				<p>About us</p>
+				<p>Support</p>
+				<p>Contact us</p>
+			</div>
+		</footer>
+		<script>
+		$("#datepicker").datepicker();
+		$("#timepicker").timepicker({
+			'minTime': '9:00am',
+			'maxTime': '9:00pm'
+		});
+		</script>
+		<script src="javascripts/javascript.js"></script>
+  </body>
+
+</html>

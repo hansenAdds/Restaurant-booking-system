@@ -1,0 +1,490 @@
+body
+{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  margin: 0px;
+}
+
+/* logo */
+.head
+{
+  width:1000px;
+  margin:auto;
+  padding: 10px;
+}
+
+header a
+{
+  color: #e8a465;
+}
+
+a
+{
+	text-decoration: none;
+}
+/* register login */
+header h1, header p
+{
+	display:inline;
+}
+
+#register, #login
+{
+	color: dimgrey;
+	font-size: 16px;
+	float:right;
+	margin-left: 20px;
+	font-weight: bold;
+	border: none;
+	background-color: white;
+	padding-top: 15px;
+}
+
+#login-p
+{
+	text-align: center;
+}
+.first
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 600px;
+
+}
+
+.container
+{
+	width:1000px;
+	margin: auto;
+	height:600px;
+	padding-top: 7%;
+}
+
+.container2
+{
+	text-align: center;
+	position: relative
+}
+
+.search-bar-text
+{
+    color: white;
+}
+
+.search
+{
+	margin: 20px;
+}
+
+.search div
+{
+	display:inline;
+
+}
+
+/* Select Date */
+.form1
+{
+	padding: 15px 15px 15px 30px;
+	border-radius: 30px 0px 0px 30px;
+	background-color: white;
+	border-right: 1px solid lightgrey;
+}
+/* Select Time */
+/* Select Number of Guests */
+.form2
+{
+	padding: 15px;
+	background-color: white;
+	border-right: 1px solid lightgrey;
+}
+
+/* Select Cuisine */
+.form3
+{
+	padding: 15px;
+	background-color: white;
+}
+
+/* Search Button */
+.form4
+{
+	padding: 15px 30px 15px 15px;
+	border-radius: 0px 30px 30px 0px;
+	background-color: #e8a465;
+}
+
+.forms
+{
+	font-size: 1rem;
+	outline: none;
+}
+
+.search_button
+{
+	font-size: 1rem;
+	background-color: #e8a465;
+	color: white;
+	border: none;
+}
+.search input[type="text"]
+{
+	font-family: "Quicksand", sans-serif;
+	border-color: white;
+	border-style:solid;
+
+}
+select
+{
+	font-family: "Quicksand", sans-serif;
+	border-style:solid;
+	background-color: white;
+	border-color: white;
+	color: grey;
+}
+.second
+{
+	margin-top: 50px;
+	height: 550px;
+}
+
+.recommendation
+{
+	width:1000px;
+	margin: auto;
+	text-align: center;
+	font-family: "Quicksand", sans-serif;
+	color: grey;
+}
+.restaurant
+{
+	text-align: center;
+}
+
+.image
+{
+	width:200px;
+	height:200px;
+	margin-left:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border: 1px solid grey;
+	float: left;
+}
+.content
+{
+	width:285px;
+	height:200px;
+	border: 1px solid grey;
+	float: left;
+	margin-right:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-family: "Quicksand", sans-serif;
+
+}
+.word{
+	font-family: "Quicksand", sans-serif;
+	color: grey;
+	
+}
+
+/*    Footer    */
+footer
+{
+	background-color: grey;
+	/*position: absolute;*/
+	width: 100%;
+	color: white;
+}
+.foot
+{
+	width:400px;
+	margin: auto;
+}
+
+.foot p
+{
+	float: left;
+	margin: 20px;
+}
+
+/*   Background    */
+.content-background
+{
+	width:1000px;
+	background-color: white;
+	min-height:1000px;
+	margin:auto;
+}
+.white-content
+{
+	padding: 40px;
+	color: dimgrey;
+}
+
+
+/*   search.html   */
+.line
+{
+	position:relative;
+	width:100%;
+	background-color:#e8a465;
+	height: 30px;
+}
+
+.white-content h1
+{
+	color: #e8a465;
+	margin-top:0px;
+}
+
+.search-first
+{
+	width:100%;
+	background-color: #f4f4f4;
+	height:100%;
+	padding-top: 20px;
+}
+
+
+.available
+{
+	margin: 0px;
+}
+.lists
+{
+	margin-top: 20px;
+}
+
+.search-image
+{
+	width:200px;
+	height:200px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border: 1px solid grey;
+	float: left;
+}
+.search-content
+{
+	width:715px;
+	height:200px;
+	border: 1px solid lightgrey;
+	float: left;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-family: "Quicksand", sans-serif;
+	text-align: left;
+}
+.search-content a
+{
+	 color:dimgrey;
+}
+.search-content p, .search-content h2
+{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+/*   Restaurant.html   */
+.restaurant-photo-content div
+{
+	display: inline-block;
+	margin-top: 20px;
+}
+.restaurant-content
+{
+	color: black;
+	font-weight: 400;
+}
+.restaurant-photo img
+{
+	max-width:215px;
+	max-height:215px;
+}
+.restaurant-photo
+{
+	width: 215px;
+	height: 215px;
+	border: 1px solid grey;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.restaurant-description-map div
+{
+	display:inline-block;
+	margin-top:10px;
+}
+.restaurant-description
+{
+	margin-top: 50px;
+	width: 900px;
+	height: 100px;
+	border: 1px solid grey;
+}
+.restaurant-description p
+{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:0px;
+}
+.restaurant-map
+{	
+	width:410px;
+	height:300px;
+	border: 1px solid grey;
+}
+.available-booking-time h2
+{
+	text-align: center;
+}
+
+.btn{
+	background-color: #e8a465;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+	border: none;
+	text-align: center;
+	margin: 5px 0px 5px 0px;
+}
+.active, .btn:hover {
+	background-color: #d78334;
+}
+
+
+.btn:disabled
+{
+	color: lightgrey;
+	background-color: grey;
+}
+
+#bookinginfo
+{
+	text-align: center;
+	margin-top: 20px;
+}
+#bookinginfo input
+{
+	font-family: "Quicksand", sans-serif;
+	color: grey;
+	width: 300px;
+	padding: 10px;
+	margin: 3px 0px;
+}
+.booking-time input[type="radio"]
+{
+    display:none;
+}
+.booking-time label
+{
+	padding: 10px 20px;
+	background-color: #e8a465;
+	border-radius: 10px;
+	color: white;
+	display: inline-block;
+	margin-top: 5px;
+}
+.booking-time input[type="radio"]:checked + label
+{ 
+    background-color: #d78334;
+    border-color: green;
+}
+.booking-time label:hover
+{
+	background-color: #d78334;
+}
+.booking-time input[type="radio"]:disabled + label
+{
+	background-color: #d78334;
+	color: #d78334;
+}
+#button-time
+{
+	color:black;
+}
+#restaurant-submit-btn
+{
+	text-align: center;
+	margin: 20px;
+}
+#restaurant-submit-btn button
+{
+	background-color:#e8a465;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	font-family: "Quicksand", sans-serif;
+	font-size: 16px;
+}
+
+/*    Booking-successful.html    */
+
+.booking-detail
+{
+	margin-left: 10px;
+	margin-top: 40px;
+}
+.successful-booking-detail h2, .successful-booking-detail p
+{
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+.successful-google-map
+{
+	width: 800px;
+	height: 500px;
+	border: 1px solid grey;
+	display:block;
+}
+
+/*    Manage    */
+#booked, .booked-previous
+{
+	width: 910px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#booked p, .booked-previous
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+#booked p, button
+{
+	display: inline-block;
+}
+.booked-previous p, button
+{
+	display: inline-block;
+}
+
+#booked button, .booked-previous button
+{
+	background-color:#e8a465;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 10px 20px;
+	font-family: "Quicksand", sans-serif;
+	font-size: 16px;
+	float: right;
+	margin-left: 10px;
+}
+
+/*  UPDATE   */
+#manage-update-btn button
+{
+	background-color:#e8a465;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 10px 20px;
+	font-family: "Quicksand", sans-serif;
+	font-size: 16px;
+	margin-right: 5px;
+	margin-top: 30px;
+
+}
